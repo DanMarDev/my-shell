@@ -1,6 +1,6 @@
 ## Description
 
-my-shell.c is a simple command-line shell implemented in C. It supports the execution of a few basic built-in shell commands, as well as the execution of any external commands. This project developed for an Operating Systems course at the University of Scranton taught by Dr. Yaodong Bi.
+my-shell.c is a simple command-line shell implemented in C. It supports the execution of a few basic built-in shell commands, as well as the execution of any external commands. This project was developed for an Operating Systems course at the University of Scranton taught by Dr. Yaodong Bi.
 
 ## Features
 - **Built-in commands**:
