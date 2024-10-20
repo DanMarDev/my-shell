@@ -75,7 +75,7 @@ void execute(char **args, int background) {
         // Child process
         // (Parent process should not reach this line)
         execvp(args[0], args);
-        perror("execvp");
+        exit(1);
     } else {
         // Parent process
         if (!background) {
@@ -86,7 +86,6 @@ void execute(char **args, int background) {
             // Background process: do not wait
             printf("Started background process with PID %d\n", pid);
         }
-        
     }
 }
 
